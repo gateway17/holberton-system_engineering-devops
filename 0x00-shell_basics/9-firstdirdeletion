@@ -1,6 +1,2 @@
 #!/bin/bash
-directory=/tmp/holberton/
-if [ -d $directory ]
-then
-rm -rf $directory
-fi
+rm -rf /tmp/holberton/

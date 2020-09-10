@@ -1,10 +1,2 @@
 #!/bin/bash
-file=/tmp/holberton/betty
-if [ -f $file ]
-then
-	rm -rf $file
-	if [ $? = 0 ]
-	then
-	echo "Done."
-	fi
-fi
+rm /tmp/holberton/betty
