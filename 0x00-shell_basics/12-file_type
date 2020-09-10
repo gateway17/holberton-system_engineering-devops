@@ -1,0 +1,10 @@
+#!/bin/bash
+file=/tmp/iamafile
+if [ -f $file ]
+then
+	file $file
+else
+	touch $file
+	file $file
+fi
+

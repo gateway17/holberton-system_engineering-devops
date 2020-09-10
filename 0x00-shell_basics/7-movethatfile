@@ -1,0 +1,24 @@
+#!/bin/bash
+fichero=/tmp/betty
+end_path=/tmp/holberton/
+if [ -f $fichero ]
+then
+mv $fichero $end_path 
+# I dont give a f*** if this get a 1 exit status.
+fi
+if touch $fichero
+then
+        if [ -d $end_path ]
+        then
+                echo " $end_path directory exist, proceeding to move betty file..."
+                mv $fichero $end_path
+                if [ $? = 0 ]
+                then
+                        echo "Betty file path have changed,succesfully."
+                else
+                        echo "I dont want to be rude but, you are fucked."
+                fi
+        else 
+                echo "/etc/holberton/ does not exist, therefore betty file will not be moved."
+        fi
+fi

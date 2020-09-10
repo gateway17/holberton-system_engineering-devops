@@ -1,0 +1,3 @@
+#!/bin/bash
+directory=/tmp/u
+mv [[:upper:]] $directory

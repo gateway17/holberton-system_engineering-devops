@@ -1,0 +1,7 @@
+#!/bin/bash
+ls -la PWD
+ls -la cd ..
+if [ -d /boot ]
+then
+ls -la /boot
+fi
