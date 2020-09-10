@@ -1,3 +1,2 @@
 #!/bin/bash
-var=holberton
-mkdir /tmp/$var
+mkdir /tmp/holberton
