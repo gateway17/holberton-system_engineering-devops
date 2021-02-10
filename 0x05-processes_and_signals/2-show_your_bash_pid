@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Can do the same with ps aux | awk 'bash'
+# shellcheck disable=SC2009
+ps aux | grep bash
