@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-
+#Displays "To infinity and beyond" indefinitely.
+trap 'I am invincible!!!' SIGTERM
 while true; do
-    trap 'I am invincible!!!' SIGTERM
     echo "To infinity and beyond"
     sleep 2
 done
