@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/usr/bin/env bash
 # Bash script that configures an Ubuntu server with the below requirements
 # Change localhost to 127.0.0.2
 # Change facebook.com to 8.8.8.8
