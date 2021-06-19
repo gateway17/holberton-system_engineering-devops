@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+l=1
+
+while [ $l -le 20 ]; do
+
+  case $l in
+    4 ) echo $l | echo "bad luck from China" && ((l++));;
+    9 ) echo $l | echo "bad luck from Japan" && ((l++));;
+    17) echo $l | echo "bad luck from Italy" && ((l++));;
+    * ) echo $l && ((l++))
+  esac
+
+done

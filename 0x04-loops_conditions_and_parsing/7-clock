@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+l=0
+r=1
+
+while [ $l -le 12 ]; do
+  #statements
+  echo "Hour: $l"
+  while [ $r -le 59 ]; do
+    #statements
+    echo "$r"
+    ((r++))
+  done
+  r=1
+  ((l++))
+done

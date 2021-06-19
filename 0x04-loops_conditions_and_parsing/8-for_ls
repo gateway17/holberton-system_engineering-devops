@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+
+for i in $(ls); do
+
+  echo "$(echo $i | cut -d "-" -f2)" # This was little tricky
+
+done

@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+l=1
+
+while [ $l -le 10 ]; do
+
+  if [ $l -eq 4 ]
+  then
+    echo "bad luck"
+    ((l++))
+  elif [ $l -eq 8 ]
+  then
+    echo "good luck"
+    ((l++))
+  else
+    echo "Holberton School"
+    ((l++))
+  fi
+done
