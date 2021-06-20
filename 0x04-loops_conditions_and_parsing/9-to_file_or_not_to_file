@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Tells you if file exists or not, and
+# If it empty or not.
+
+
 
 filename="holbertonschool"
 

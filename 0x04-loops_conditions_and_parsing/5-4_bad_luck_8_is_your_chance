@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# This script displays "Holberton School" 10 times but,
+# In fourth print "bad luck"
+# In eighth "good luck"
 
 l=1
 

@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# This script displays "Holberton School" 20 times but,
+# In 4th print "bad luck from China"
+# In 9th "good luck from Japan"
+# and 17th "bad luck from Italy"
 
 l=1
 

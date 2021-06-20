@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+# Lists all files in Directory, but cuts
+# All that is behind '-' Character.
 
 for i in $(ls); do
 
