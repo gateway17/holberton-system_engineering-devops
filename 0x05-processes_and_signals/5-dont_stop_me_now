@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Stops 4-to_infinity_and_beyond process
-kill "$( ps -aux | awk '/4-to_infinity_and_beyond/ { print $2 }' | head -1 )"
+
+# shellcheck disable=SC2009
+kill "$(ps aux | grep ./4-to_infinity_and_beyond | grep -v grep | awk '{print $2}')"
