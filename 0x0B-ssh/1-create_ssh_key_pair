@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ssh-keygen -t rsa -b 2096 -f holberton -P "betty"
