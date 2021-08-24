@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # install nginx and start a web page with the text 'Holberton School'
 apt-get -y install nginx
+afw allow 'Nginx HTTP'
 chmod ugo+rwx /var/www/html/index.nginx-debian.html
-echo 'Holberton School' > /var/www/html/index.nginx-debian.html
+echo 'Holberton School' > /var/www/html/index.html
 sudo service nginx start
