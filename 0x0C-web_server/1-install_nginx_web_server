@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # install nginx and start a web page with the text 'Holberton School'
-#sudo apt-get update
+sudo apt-get update
 sudo apt-get -y install nginx
 sudo afw allow 'Nginx HTTP'
 sudo chmod ugo+rwx /var/www/html/
