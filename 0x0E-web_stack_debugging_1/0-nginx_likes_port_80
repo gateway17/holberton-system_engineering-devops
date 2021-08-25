@@ -8,5 +8,5 @@ Requirements:
 Comments
 
 sudo sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-sudo sed -i 's/8080/80/g' /etc/nginx/sites-avalable/default
-sudo sed -i 's/ipv6only=on/ ' /etc/nginx/sites-avalable/default
+sudo sed -i 's/8080/80/g' /etc/nginx/sites-available/default
+sudo sed -i 's/ipv6only=on/ ' /etc/nginx/sites-available/default
