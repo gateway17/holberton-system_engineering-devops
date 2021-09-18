@@ -43,7 +43,7 @@ if __name__ == "__main__":
         else:
             continue
 
-    output_txt = "Employee {} is done with tasks({}/{})"\
+    output_txt = "Employee {} is done with tasks({}/{}):"\
         .format(E_name, completed_tasks, total_tasks)
     print(output_txt)
     for i in tasks:
