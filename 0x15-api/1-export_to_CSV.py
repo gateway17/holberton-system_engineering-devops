@@ -52,5 +52,5 @@ if __name__ == "__main__":
             continue
 
     with open(FILE_NAME, 'w') as buffer:
-        csv_obj = csv.writer(buffer, delimiter=' ', quoting=csv.QUOTE_ALL)
+        csv_obj = csv.writer(buffer, delimiter=',', quoting=csv.QUOTE_ALL)
         csv_obj.writerows(rows)
