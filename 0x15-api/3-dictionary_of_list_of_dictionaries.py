@@ -54,14 +54,14 @@ if __name__ == "__main__":
         temp_list = []
         for a in data:
             if a['userId'] == e:
- 
+
                 for i in U_data:
                     if i['id'] == e:
 
                         E_name = i['name']
 
                         a = {'username': E_name, 'task': a['title'],
-                            'completed': a['completed']}
+                             'completed': a['completed']}
                     else:
                         continue
                 temp_list.append(a)
