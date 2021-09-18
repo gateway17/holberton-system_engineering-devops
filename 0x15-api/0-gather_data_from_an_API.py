@@ -47,4 +47,4 @@ if __name__ == "__main__":
         .format(E_name, completed_tasks, total_tasks)
     print(output_txt)
     for i in tasks:
-        print("\t{}".format(i))
+        print("\t {}".format(i))
