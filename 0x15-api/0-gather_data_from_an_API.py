@@ -2,9 +2,9 @@
 """Returns information about his/her TODO list progress."""
 
 if __name__ == "__main__":
-    from urllib import request
     import json
     from sys import argv
+    from urllib import request
 
     # Who is the target?
     TARGET_ID = argv[1]
@@ -23,7 +23,7 @@ if __name__ == "__main__":
         """Make a GET request to get personal information about target"""
         data = buffer.read().decode('utf-8')
         data = json.loads(data)
-        E_name = data['username']
+        E_name = data['name']
     # Get the whole list of tasks
     with request.urlopen(PATHS['Personal_tasks']) as buffer:
         """Get the whole list of tasks"""
