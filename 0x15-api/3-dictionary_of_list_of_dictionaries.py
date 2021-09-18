@@ -11,9 +11,9 @@ if __name__ == "__main__":
     TARGET_ID = argv[1]
     # PATHs that we need to make requests to
     PATHS = {
-    'Personal_D': "https://jsonplaceholder.typicode.com/users/{}"
-    .format(TARGET_ID),
-    'Personal_tasks': 'https://jsonplaceholder.typicode.com/todos/'
+        'Personal_D': "https://jsonplaceholder.typicode.com/users/{}"
+        .format(TARGET_ID),
+        'Personal_tasks': 'https://jsonplaceholder.typicode.com/todos/'
     }
     # Variables we will need
     tasks = []  # List of tasks Done by the TARGET
@@ -55,7 +55,7 @@ if __name__ == "__main__":
         for a in data:
             if a['userId'] == e:
                 a = {'username': E_name, 'task': a['title'],
-                    'completed': a['completed']}
+                     'completed': a['completed']}
                 temp_list.append(a)
         e = str(e)
         final_dict[e] = temp_list

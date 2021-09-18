@@ -10,9 +10,9 @@ if __name__ == "__main__":
     TARGET_ID = argv[1]
     # PATHs that we need to make requests to
     PATHS = {
-    'Personal_D': "https://jsonplaceholder.typicode.com/users/{}"
-    .format(TARGET_ID),
-    'Personal_tasks': 'https://jsonplaceholder.typicode.com/todos/'
+        'Personal_D': "https://jsonplaceholder.typicode.com/users/{}"
+        .format(TARGET_ID),
+        'Personal_tasks': 'https://jsonplaceholder.typicode.com/todos/'
     }
     # Variables we will need
     tasks = []  # List of tasks Done by the TARGET
@@ -47,7 +47,7 @@ if __name__ == "__main__":
                 total_tasks += 1
 
             i = {"task": i['title'], "completed":  i['completed'],
-                "username": E_name}
+                 "username": E_name}
             for_json.append(i)
         else:
             continue
@@ -57,7 +57,6 @@ if __name__ == "__main__":
         TARGET_ID: for_json
     }
     print(dict_for_json)
-
 
     with open(FILE_NAME, 'w') as buffer:
         """Become dict of tasks into json"""

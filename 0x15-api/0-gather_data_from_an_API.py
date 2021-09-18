@@ -10,9 +10,9 @@ if __name__ == "__main__":
     TARGET_ID = argv[1]
     # PATHs that we need to make requests to
     PATHS = {
-    'Personal_D': "https://jsonplaceholder.typicode.com/users/{}"
-    .format(TARGET_ID),
-    'Personal_tasks': 'https://jsonplaceholder.typicode.com/todos/'
+        'Personal_D': "https://jsonplaceholder.typicode.com/users/{}"
+        .format(TARGET_ID),
+        'Personal_tasks': 'https://jsonplaceholder.typicode.com/todos/'
     }
     # Variables we will need
     tasks = []  # List of tasks Done by the TARGET
