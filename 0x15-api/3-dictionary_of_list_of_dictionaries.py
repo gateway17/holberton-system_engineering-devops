@@ -58,7 +58,7 @@ if __name__ == "__main__":
                 for i in U_data:
                     if i['id'] == e:
 
-                        E_name = i['name']
+                        E_name = i['username']
 
                         a = {'username': E_name, 'task': a['title'],
                              'completed': a['completed']}
